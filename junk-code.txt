@@ -1,0 +1,65 @@
+
+dob
+non smoker smoker
+illnesses
+
+textarea{
+resize: vertical;
+max-height:100px;
+}
+
+textarea{
+outline:none;
+display: inline-block;
+margin-right: 5px;
+border:1px solid grey;
+}
+
+::placeholder{
+color:red;
+opacity:1;
+}
+
+input {
+width:100%
+}
+
+<p> Upload information for KYC Application</p>
+<form action="contactform.php" method="post">
+	<input type="text" name="email" placeholder="Write your email...">
+	Male:<input type="radio" name="email" value="Option1">
+	Female:<input type="radio" name="email" value="Option1">
+	<input type="password" name="pwd" placeholder="password">
+	<textarea name="message" placeholder "Write a message"></textarea>
+	<select name="Insurance">
+      <option value="Have Life Insurance"></option>
+	<option value="Do not Life Insurance"></option>
+	<option value="I want Life Insurance"></option>
+	<button type="submit" name="submit"> Submit</button>
+      </select> 
+</form>
+
+input[type="text"];
+input[type="tel"];
+input[type="email];
+
+select{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px sold #CCCCCC;
+}
+
+
+button[type="submit']{
+	display:block;
+	width:100%;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #00FFFF;
+	border: none;
+	color:#FFFFFF;
+      font-size:16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
